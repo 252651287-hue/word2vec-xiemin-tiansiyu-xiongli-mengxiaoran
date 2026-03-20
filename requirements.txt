@@ -1,0 +1,5 @@
+gensim==4.4.0
+matplotlib==3.10.8
+numpy==2.3.5
+scikit-learn==1.8.0
+scipy==1.17.0

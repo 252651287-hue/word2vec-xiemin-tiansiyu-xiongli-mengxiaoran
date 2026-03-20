@@ -1,0 +1,66 @@
+python code data model vector language text corpus learning network
+python code data model vector language text corpus learning algorithm
+python code data model vector language text corpus learning training
+python program script function variable loop class object module package
+code program software developer debug compile function library package test
+algorithm data feature label sample batch model training learning prediction
+word vector language text token sentence corpus embedding semantics context
+natural language processing text corpus token word vector sentence document
+machine learning model data feature training test prediction accuracy loss
+neural network layer model training gradient optimizer data learning
+cat dog animal pet tail fur home play sleep walk
+cat kitten pet animal soft fur home milk sleep play
+狗 cat dog animal pet friend park walk tail bark
+lion tiger animal wild forest hunt strong fast nature
+apple banana orange fruit sweet fresh juice market food
+banana orange fruit apple grape mango sweet market healthy
+fruit apple banana salad juice breakfast fresh vitamin food
+city river bridge road traffic building station travel map
+beijing shanghai city subway road bridge traffic station travel
+school teacher student class homework exam study book library
+student school study homework notebook teacher class question answer
+music song piano guitar melody rhythm concert singer stage
+movie actor camera story screen director cinema scene drama
+coffee tea drink cup sugar milk cafe morning warm
+tea coffee drink cup cafe milk biscuit morning break
+football basketball sport team match player coach stadium score
+basketball football sport team player match training score fan
+sun moon star sky light cloud night space bright
+rain wind cloud weather storm sky season air cold
+book paper pen notebook desk library reading writing study
+history culture museum city travel building story people time
+science experiment laboratory data result theory model research paper
+research paper experiment science data result method conclusion model
+computer keyboard screen mouse network internet code data system
+internet network server computer security data cloud system storage
+cloud server network database data backup security service system
+car bus train station road travel ticket city route
+train bus station travel ticket route city road transport
+health doctor hospital patient medicine care nurse clinic treatment
+food kitchen cook rice soup vegetable dinner family plate
+rice noodle soup food bowl chopsticks lunch dinner taste
+water river lake ocean nature fish boat travel shore
+mountain river forest nature travel path road village view
+phone camera screen battery app message call internet mobile
+app phone message call mobile screen internet user service
+market shop price money customer product order payment service
+customer product market service order payment value quality brand
+king queen royal palace crown throne kingdom power history
+queen king palace crown royal family history story kingdom
+child parent family home school play love care growth
+family child home dinner care love parent room morning
+friend team group project idea meeting plan work share
+project team data code model result report github commit
+project github commit push pull branch merge repository readme
+repository github code commit branch push issue clone pull
+clone repository github project code branch commit readme file
+conda environment python package install version dependency pip requirements
+python conda environment install package dependency version run terminal
+matplotlib plot figure point label axis image save output
+pca dimension reduce vector point figure plot output image
+word2vec model word vector corpus training window epoch embedding
+word2vec embedding word context vector model training corpus sentence
+text language word sentence corpus token vector embedding model
+teacher student project github python report result figure model
+course homework project python github readme requirements main script
+main script python run project output model figure repository
