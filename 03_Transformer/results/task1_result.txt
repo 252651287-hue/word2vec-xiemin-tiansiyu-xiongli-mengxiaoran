@@ -1,0 +1,46 @@
+Task 1: 用 Transformer（点积注意力）实现英法翻译任务
+
+设备：CPU
+
+一、测试集结果
+BLEU-1：65.10
+BLEU-4：37.41
+
+二、结果分析
+本实验使用标准 Transformer 架构完成英文到法文的翻译任务，并采用点积注意力机制作为原始注意力形式。从训练过程看，训练损失和验证损失均随 epoch 增加而持续下降，说明模型能够稳定收敛并逐步学习英法句对之间的映射关系。
+
+最终在测试集上，模型取得了 BLEU-1 为 65.10、BLEU-4 为 37.41 的结果。结果表明，该模型不仅能够较好地完成单词级别的翻译匹配，同时也具备一定的短语和句子结构生成能力，能够较为有效地完成英法翻译任务。
+
+三、翻译示例
+
+英文：I gave you my word.
+真实法文：Je t'ai donné ma parole.
+模型法文：je vous ai donné ma parole .
+
+英文：I liked your idea and adopted it.
+真实法文：J'ai aimé ton idée et l'ai adopté.
+模型法文：je l ' ai apprécié et l ' ai adopté .
+
+英文：Let me help you put on your coat.
+真实法文：Laissez-moi vous aider à mettre votre manteau.
+模型法文：laissez - moi vous aider à votre manteau .
+
+英文：How stupid he is!
+真实法文：Quel imbécile il fait !
+模型法文：c ' est stupide !
+
+英文：I think that's highly unlikely.
+真实法文：Je pense que c'est hautement improbable.
+模型法文：je pense qu ' il est improbable que c ' est improbable .
+
+英文：If you do not have this book, you can buy it.
+真实法文：Si vous ne disposez pas de ce livre, vous pouvez en faire l'acquisition.
+模型法文：si tu n ' as pas ce livre , tu peux l ' acheter .
+
+英文：Are you seriously thinking about selling this on eBay?
+真实法文：Pensez-vous sérieusement à vendre ça sur eBay ?
+模型法文：pensez - vous sérieusement à vendre cela sur cette tokyo ?
+
+英文：Money is welcome everywhere.
+真实法文：L'argent est bienvenu partout.
+模型法文：l ' argent est la bienvenue partout .
