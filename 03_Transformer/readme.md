@@ -52,18 +52,16 @@ eng-fra_train_data.txt 用于训练
 eng-fra_test_data.txt 用于测试
 eng-fra.txt 用于保存完整语料
 
-##四、Task 1：Transformer 点积注意力翻译任务
+## 四、Task 1：Transformer 点积注意力翻译任务
 1、测试集结果
 BLEU-1：65.10
 BLEU-4：37.41
 
 2、结果分析
 本实验使用标准 Transformer 架构完成英文到法文的翻译任务，并采用点积注意力机制作为原始注意力形式。从训练过程看，训练损失和验证损失均随 epoch 增加而持续下降，说明模型能够稳定收敛并逐步学习英法句对之间的映射关系。
-
 最终在测试集上，模型取得了 BLEU-1 为 65.10、BLEU-4 为 37.41 的结果。结果表明，该模型不仅能够较好地完成单词级别的翻译匹配，同时也具备一定的短语和句子结构生成能力，能够较为有效地完成英法翻译任务。
 
 3、翻译示例
-
 英文：I gave you my word.
 真实法文：Je t'ai donné ma parole.
 模型法文：je vous ai donné ma parole .
@@ -98,7 +96,7 @@ BLEU-4：37.41
 
 
 
-##五、Task 2：点积注意力与加性注意力对比实验
+## 五、Task 2：点积注意力与加性注意力对比实验
 1. 运行方式
 python task2.py
 2. 最终结果
@@ -115,7 +113,7 @@ python task2.py
 从点积注意力与加性注意力的翻译样例看，两种模型在多数句子上的输出较为相似，均能够生成较合理的法语句子，但在复杂句式和细节搭配上仍存在一定误差。这也进一步说明，在本实验设置下，两种注意力机制在实际翻译效果上的差异不明显。
 
 
-##六、结果文件说明
+## 六、结果文件说明
 results/task1_result.txt：Task 1 结果总结
 results/task2_result.txt：Task 2 结果总结
 results/task1_terminal_result.png：Task 1 终端运行截图
@@ -123,7 +121,7 @@ results/task2_terminal_result.png：Task 2 终端运行截图
 results/task2_loss_compare.png：Task 2 损失曲线对比图
 
 
-##七、模型文件说明
+## 七、模型文件说明
 models/task1_best_dot_model.pt：Task 1 中点积注意力最优模型
 models/task2_best_dot_model.pt：Task 2 中点积注意力最优模型
 models/task2_best_additive_model.pt：Task 2 中加性注意力最优模型
